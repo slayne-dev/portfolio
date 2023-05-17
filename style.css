@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #331A48;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    height: 125px;
+    width: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#content {
+    margin: auto;
+    position: relative;
+    bottom: 50px;
+}
+
+h1, h2, p {
+    text-align: center;
+    color: #D8D8D8;
+}
+
+p {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+
+
